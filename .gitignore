@@ -4,3 +4,4 @@ session/
 .wwebjs_cache
 firebase-key.json
 .env.local
+.env

@@ -3,6 +3,8 @@ const qrcode = require('qrcode-terminal');
 const express = require('express');
 const { db } = require('./firebase-admin');
 const { enviarMensaje } = require('./api/aiService');
+require('dotenv').config();
+
 
 // 🔁 Servidor Express para mantener activo el bot
 const app = express();
